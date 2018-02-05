@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F0AFDA22024C11400DEC226 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AFDA12024C11400DEC226 /* AppDelegate.m */; };
+		2F0AFDA52024C11400DEC226 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AFDA42024C11400DEC226 /* ViewController.m */; };
+		2F0AFDA72024C11400DEC226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F0AFDA62024C11400DEC226 /* Assets.xcassets */; };
+		2F0AFDAA2024C11400DEC226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0AFDA82024C11400DEC226 /* Main.storyboard */; };
+		2F0AFDAD2024C11400DEC226 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AFDAC2024C11400DEC226 /* main.m */; };
+		2F0AFDB62024C13100DEC226 /* RhombusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0AFDB52024C13100DEC226 /* RhombusView.m */; };
+		2F0B3825202836AC00BA3B2E /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2F0B3824202836AC00BA3B2E /* colors.txt */; };
+		2F0B38282028393700BA3B2E /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0B38272028393700BA3B2E /* Colors.m */; };
+		2F0B383020283A6500BA3B2E /* ridleyrhombusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0B382F20283A6500BA3B2E /* ridleyrhombusTests.m */; };
+		2F0B383720283A7900BA3B2E /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0B38272028393700BA3B2E /* Colors.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F0B383220283A6500BA3B2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F0AFD952024C11400DEC226 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0AFD9C2024C11400DEC226;
+			remoteInfo = ridleyrhombus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F0AFD9D2024C11400DEC226 /* ridleyrhombus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ridleyrhombus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0AFDA02024C11400DEC226 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F0AFDA12024C11400DEC226 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F0AFDA32024C11400DEC226 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F0AFDA42024C11400DEC226 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F0AFDA62024C11400DEC226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F0AFDA92024C11400DEC226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F0AFDAB2024C11400DEC226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0AFDAC2024C11400DEC226 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F0AFDAE2024C11400DEC226 /* ridleyrhombus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ridleyrhombus.entitlements; sourceTree = "<group>"; };
+		2F0AFDB42024C13100DEC226 /* RhombusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RhombusView.h; sourceTree = "<group>"; };
+		2F0AFDB52024C13100DEC226 /* RhombusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RhombusView.m; sourceTree = "<group>"; };
+		2F0B3824202836AC00BA3B2E /* colors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		2F0B38262028393700BA3B2E /* Colors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		2F0B38272028393700BA3B2E /* Colors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		2F0B382D20283A6500BA3B2E /* ridleyrhombusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ridleyrhombusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F0B382F20283A6500BA3B2E /* ridleyrhombusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ridleyrhombusTests.m; sourceTree = "<group>"; };
+		2F0B383120283A6500BA3B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F0AFD9A2024C11400DEC226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0B382A20283A6500BA3B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F0AFD942024C11400DEC226 = {
+			isa = PBXGroup;
+			children = (
+				2F0AFD9F2024C11400DEC226 /* ridleyrhombus */,
+				2F0B382E20283A6500BA3B2E /* ridleyrhombusTests */,
+				2F0AFD9E2024C11400DEC226 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0AFD9E2024C11400DEC226 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AFD9D2024C11400DEC226 /* ridleyrhombus.app */,
+				2F0B382D20283A6500BA3B2E /* ridleyrhombusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F0AFD9F2024C11400DEC226 /* ridleyrhombus */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AFDA02024C11400DEC226 /* AppDelegate.h */,
+				2F0AFDA12024C11400DEC226 /* AppDelegate.m */,
+				2F0AFDA32024C11400DEC226 /* ViewController.h */,
+				2F0AFDA42024C11400DEC226 /* ViewController.m */,
+				2F0AFDA62024C11400DEC226 /* Assets.xcassets */,
+				2F0AFDA82024C11400DEC226 /* Main.storyboard */,
+				2F0B3824202836AC00BA3B2E /* colors.txt */,
+				2F0AFDAB2024C11400DEC226 /* Info.plist */,
+				2F0AFDAC2024C11400DEC226 /* main.m */,
+				2F0AFDAE2024C11400DEC226 /* ridleyrhombus.entitlements */,
+				2F0AFDB42024C13100DEC226 /* RhombusView.h */,
+				2F0AFDB52024C13100DEC226 /* RhombusView.m */,
+				2F0B38262028393700BA3B2E /* Colors.h */,
+				2F0B38272028393700BA3B2E /* Colors.m */,
+			);
+			path = ridleyrhombus;
+			sourceTree = "<group>";
+		};
+		2F0B382E20283A6500BA3B2E /* ridleyrhombusTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0B382F20283A6500BA3B2E /* ridleyrhombusTests.m */,
+				2F0B383120283A6500BA3B2E /* Info.plist */,
+			);
+			path = ridleyrhombusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F0AFD9C2024C11400DEC226 /* ridleyrhombus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0AFDB12024C11400DEC226 /* Build configuration list for PBXNativeTarget "ridleyrhombus" */;
+			buildPhases = (
+				2F0AFD992024C11400DEC226 /* Sources */,
+				2F0AFD9A2024C11400DEC226 /* Frameworks */,
+				2F0AFD9B2024C11400DEC226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ridleyrhombus;
+			productName = ridleyrhombus;
+			productReference = 2F0AFD9D2024C11400DEC226 /* ridleyrhombus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F0B382C20283A6500BA3B2E /* ridleyrhombusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F0B383420283A6500BA3B2E /* Build configuration list for PBXNativeTarget "ridleyrhombusTests" */;
+			buildPhases = (
+				2F0B382920283A6500BA3B2E /* Sources */,
+				2F0B382A20283A6500BA3B2E /* Frameworks */,
+				2F0B382B20283A6500BA3B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F0B383320283A6500BA3B2E /* PBXTargetDependency */,
+			);
+			name = ridleyrhombusTests;
+			productName = ridleyrhombusTests;
+			productReference = 2F0B382D20283A6500BA3B2E /* ridleyrhombusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F0AFD952024C11400DEC226 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Hassan Ahmed Khan";
+				TargetAttributes = {
+					2F0AFD9C2024C11400DEC226 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F0B382C20283A6500BA3B2E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F0AFD9C2024C11400DEC226;
+					};
+				};
+			};
+			buildConfigurationList = 2F0AFD982024C11400DEC226 /* Build configuration list for PBXProject "ridleyrhombus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F0AFD942024C11400DEC226;
+			productRefGroup = 2F0AFD9E2024C11400DEC226 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F0AFD9C2024C11400DEC226 /* ridleyrhombus */,
+				2F0B382C20283A6500BA3B2E /* ridleyrhombusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F0AFD9B2024C11400DEC226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0B3825202836AC00BA3B2E /* colors.txt in Resources */,
+				2F0AFDA72024C11400DEC226 /* Assets.xcassets in Resources */,
+				2F0AFDAA2024C11400DEC226 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0B382B20283A6500BA3B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F0AFD992024C11400DEC226 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0B38282028393700BA3B2E /* Colors.m in Sources */,
+				2F0AFDA52024C11400DEC226 /* ViewController.m in Sources */,
+				2F0AFDAD2024C11400DEC226 /* main.m in Sources */,
+				2F0AFDA22024C11400DEC226 /* AppDelegate.m in Sources */,
+				2F0AFDB62024C13100DEC226 /* RhombusView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F0B382920283A6500BA3B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F0B383020283A6500BA3B2E /* ridleyrhombusTests.m in Sources */,
+				2F0B383720283A7900BA3B2E /* Colors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F0B383320283A6500BA3B2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F0AFD9C2024C11400DEC226 /* ridleyrhombus */;
+			targetProxy = 2F0B383220283A6500BA3B2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F0AFDA82024C11400DEC226 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F0AFDA92024C11400DEC226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F0AFDAF2024C11400DEC226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F0AFDB02024C11400DEC226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F0AFDB22024C11400DEC226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ridleyrhombus/ridleyrhombus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H55AY6YP;
+				INFOPLIST_FILE = ridleyrhombus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihak.ridleyrhombus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F0AFDB32024C11400DEC226 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ridleyrhombus/ridleyrhombus.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H55AY6YP;
+				INFOPLIST_FILE = ridleyrhombus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihak.ridleyrhombus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F0B383520283A6500BA3B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H55AY6YP;
+				INFOPLIST_FILE = ridleyrhombusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihak.ridleyrhombusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ridleyrhombus.app/Contents/MacOS/ridleyrhombus";
+			};
+			name = Debug;
+		};
+		2F0B383620283A6500BA3B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6H55AY6YP;
+				INFOPLIST_FILE = ridleyrhombusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihak.ridleyrhombusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ridleyrhombus.app/Contents/MacOS/ridleyrhombus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F0AFD982024C11400DEC226 /* Build configuration list for PBXProject "ridleyrhombus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0AFDAF2024C11400DEC226 /* Debug */,
+				2F0AFDB02024C11400DEC226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0AFDB12024C11400DEC226 /* Build configuration list for PBXNativeTarget "ridleyrhombus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0AFDB22024C11400DEC226 /* Debug */,
+				2F0AFDB32024C11400DEC226 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F0B383420283A6500BA3B2E /* Build configuration list for PBXNativeTarget "ridleyrhombusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F0B383520283A6500BA3B2E /* Debug */,
+				2F0B383620283A6500BA3B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F0AFD952024C11400DEC226 /* Project object */;
+}
